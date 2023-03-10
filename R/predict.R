@@ -5,7 +5,7 @@
 #' @return TODO
 #' @export
 #'
-#' @examplesIf GPTZeroR::has_gptzero_key()
+#' @examplesIf GPTZeroR::gptzero_has_key()
 #' # Requires API Key
 #' gptzero_predict_file() #TODO
 gptzero_predict_file <- function(file) {
@@ -15,7 +15,7 @@ gptzero_predict_file <- function(file) {
   f_l <- lapply(file, curl::form_file)
 
   req <- httr2::request(base_url = api_url()) |>
-    httr2::req_auth_bearer_token(token = gptzero_get_key()) |>
+    httr2::req_headers(`X-API-KEY` = gptzero_get_key()) |>
     httr2::req_body_multipart(
       files = file
     )
@@ -43,7 +43,7 @@ gptzero_predict_text <- function(text) {
   # TODO check text input
 
   req <- httr2::request(base_url = api_url()) |>
-    httr2::req_auth_bearer_token(token = gptzero_get_key()) |>
+    httr2::req_headers(`X-API-KEY` = gptzero_get_key()) |>
     httr2::req_body_json(
       data = list(
         document = text
