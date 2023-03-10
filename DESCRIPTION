@@ -15,4 +15,7 @@ RoxygenNote: 7.2.3
 URL: https://github.com/christopherkenny/GPTZeroR
 BugReports: https://github.com/christopherkenny/GPTZeroR/issues
 Imports: 
+    cli,
+    curl,
+    httr2,
     lifecycle
