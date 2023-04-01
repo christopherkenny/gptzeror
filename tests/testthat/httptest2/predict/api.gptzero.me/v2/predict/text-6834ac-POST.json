@@ -1,0 +1,43 @@
+{
+    "documents": [
+        {
+            "average_generated_prob": 0.2,
+            "completely_generated_prob": 0.0022792980977484577,
+            "overall_burstiness": 101.20276641845703,
+            "paragraphs": [
+                {
+                    "completely_generated_prob": 0.0022792980977484577,
+                    "num_sentences": 5,
+                    "start_sentence_index": 0
+                }
+            ],
+            "sentences": [
+                {
+                    "generated_prob": 0,
+                    "perplexity": 26,
+                    "sentence": "Congressional district lines in many U.S. states are drawn by partisan actors, raising concerns about gerrymandering."
+                },
+                {
+                    "generated_prob": 0,
+                    "perplexity": 38,
+                    "sentence": "To separate the partisan effects of redistricting from the effects of other factors including geography and redistricting rules, we compare possible party compositions of the U.S. House under the enacted plan to those under a set of alternative simulated plans that serve as a non-partisan baseline."
+                },
+                {
+                    "generated_prob": 0,
+                    "perplexity": 44,
+                    "sentence": "We find that partisan gerrymandering is widespread in the 2020 redistricting cycle, but most of the electoral bias it creates cancels at the national level, giving Republicans two additional seats on average."
+                },
+                {
+                    "generated_prob": 0,
+                    "perplexity": 256,
+                    "sentence": "Geography and redistricting rules separately contribute a moderate pro-Republican bias."
+                },
+                {
+                    "generated_prob": 1,
+                    "perplexity": 16,
+                    "sentence": "Finally, we find that partisan gerrymandering reduces electoral competition and makes the partisan composition of the U.S. House less responsive to shifts in the national vote."
+                }
+            ]
+        }
+    ]
+}

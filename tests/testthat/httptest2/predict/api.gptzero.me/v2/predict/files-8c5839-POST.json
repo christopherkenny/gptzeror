@@ -1,0 +1,43 @@
+{
+    "documents": [
+        {
+            "average_generated_prob": 1,
+            "completely_generated_prob": 0.8871651741366007,
+            "overall_burstiness": 4.0865631103515625,
+            "paragraphs": [
+                {
+                    "completely_generated_prob": 0.8871651741366007,
+                    "num_sentences": 5,
+                    "start_sentence_index": 0
+                }
+            ],
+            "sentences": [
+                {
+                    "generated_prob": 1,
+                    "perplexity": 16,
+                    "sentence": "The 2020 congressional redistricting process in the United States has been marked by widespread partisan gerrymandering, which has led to concerns about its impact on electoral outcomes and democratic representation."
+                },
+                {
+                    "generated_prob": 1,
+                    "perplexity": 21,
+                    "sentence": "This paper examines the effects of partisan gerrymandering on electoral competition in the 2020 congressional elections."
+                },
+                {
+                    "generated_prob": 1,
+                    "perplexity": 21,
+                    "sentence": "Using data from previous election cycles and simulations of the 2020 elections, we find that while partisan gerrymandering mostly cancels out at the national level, it reduces competition in individual districts, making them less competitive and reducing voter choice."
+                },
+                {
+                    "generated_prob": 1,
+                    "perplexity": 12,
+                    "sentence": "We also find that the impact of gerrymandering on electoral outcomes varies significantly by state and political party, suggesting that redistricting can have significant implications for democratic representation and political power in the United States."
+                },
+                {
+                    "generated_prob": 1,
+                    "perplexity": 14,
+                    "sentence": "The findings of this study have important implications for policymakers, as well as advocates of fair and democratic elections."
+                }
+            ]
+        }
+    ]
+}
