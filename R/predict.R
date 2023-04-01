@@ -5,7 +5,7 @@
 #' @return TODO
 #' @export
 #'
-#' @examplesIf GPTZeroR::gptzero_has_key()
+#' @examplesIf gptzeror::gptzero_has_key()
 #' # Requires API Key
 #' gptzero_predict_file() #TODO
 gptzero_predict_file <- function(file) {
@@ -35,7 +35,7 @@ gptzero_predict_file <- function(file) {
 #' @return TODO
 #' @export
 #'
-#' @examplesIf GPTZeroR::has_gptzero_key()
+#' @examplesIf gptzeror::has_gptzero_key()
 #' # Requires API Key
 #' gptzero_predict_text() #TODO
 gptzero_predict_text <- function(text) {

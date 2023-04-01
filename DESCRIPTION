@@ -1,4 +1,4 @@
-Package: GPTZeroR
+Package: gptzeror
 Title: Test for Text Written by Large Language Models using GPTZero
 Version: 0.0.0.9000
 Authors@R: 
@@ -12,8 +12,8 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-URL: https://github.com/christopherkenny/GPTZeroR
-BugReports: https://github.com/christopherkenny/GPTZeroR/issues
+URL: https://github.com/christopherkenny/gptzeror
+BugReports: https://github.com/christopherkenny/gptzeror/issues
 Imports: 
     cli,
     curl,
