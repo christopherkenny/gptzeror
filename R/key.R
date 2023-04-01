@@ -61,7 +61,7 @@ gptzero_set_key <- function(key, overwrite = FALSE, install = FALSE) {
     lines <- readLines(r_env)
     newline <- paste0(name, "='", key, "'")
 
-    exists <- stringr::str_detect(lines, paste0(name, '='))
+    exists <- grepl(paste0(name, '='), x = lines)
 
     if (any(exists)) {
       if (sum(exists) > 1) {
