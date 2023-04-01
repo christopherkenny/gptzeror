@@ -1,5 +1,5 @@
 Package: gptzeror
-Title: Test for Text Written by Large Language Models using GPTZero
+Title: Identify Text Written by Large Language Models using GPTZero
 Version: 0.0.1
 Authors@R: 
         person(given = "Christopher T.",
