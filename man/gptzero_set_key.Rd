@@ -2,7 +2,7 @@
 % Please edit documentation in R/key.R
 \name{gptzero_set_key}
 \alias{gptzero_set_key}
-\title{Add Entry to Renviron}
+\title{Add GPTZero API key to .Renviron.}
 \usage{
 gptzero_set_key(key, overwrite = FALSE, install = FALSE)
 }
@@ -17,7 +17,7 @@ gptzero_set_key(key, overwrite = FALSE, install = FALSE)
 key, invisibly
 }
 \description{
-Adds GPTZero API key to .Renviron.
+Add GPTZero API key to .Renviron.
 }
 \examples{
 \dontrun{

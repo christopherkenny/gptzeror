@@ -24,9 +24,7 @@ gptzero_get_key <- function() {
   invisible(key)
 }
 
-#' Add Entry to Renviron
-#'
-#' Adds GPTZero API key to .Renviron.
+#' Add GPTZero API key to .Renviron.
 #'
 #' @param key Character. API key to add to add.
 #' @param overwrite Defaults to FALSE. Boolean. Should existing `GPTZero_KEY` in Renviron be overwritten?

@@ -6,12 +6,15 @@
 \alias{gptzeror-package}
 \title{gptzeror: Test for Text Written by Large Language Models using GPTZero}
 \description{
-What the package does (one paragraph).
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
+An R interface to the 'GPTZero' API (\url{https://gptzero.me/docs}). Allows users to classify text probabilistically into human and computer written. Formats the data into data frames where each sentence is an observation. Paragraph-level and document-level predictions are organized to align with the sentences.
 }
 \seealso{
 Useful links:
 \itemize{
   \item \url{https://github.com/christopherkenny/gptzeror}
+  \item \url{https://christophertkenny.com/gptzeror/}
   \item Report bugs at \url{https://github.com/christopherkenny/gptzeror/issues}
 }
 
