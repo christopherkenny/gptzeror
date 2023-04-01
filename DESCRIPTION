@@ -17,5 +17,7 @@ BugReports: https://github.com/christopherkenny/gptzeror/issues
 Imports: 
     cli,
     curl,
+    dplyr,
     httr2,
-    lifecycle
+    lifecycle,
+    tidyr
