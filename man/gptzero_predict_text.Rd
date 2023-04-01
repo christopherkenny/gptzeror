@@ -31,7 +31,7 @@ moderate pro-Republican bias. Finally, we find that partisan gerrymandering
 reduces electoral competition and makes the partisan composition of the U.S. House
 less responsive to shifts in the national vote.'
 
-abstr <- gsub('\\\\n', ' ', abstr) # remove the \n created by this multiline object
+abstr <- gsub('\\\\n', ' ', abstr) # remove the "\n"s
 
 gptzero_predict_text(abstr)
 \dontshow{\}) # examplesIf}

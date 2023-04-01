@@ -15,6 +15,5 @@ process_doc <- function(doc) {
       dplyr::select(dplyr::all_of(c(names(doc_lvl), names(par_lvl), names(sen_lvl)))) |>
       tidyr::fill(dplyr::starts_with(c('par_')))
   }) |>
-    dplyr::bind_rows(.id = 'doc') |>
-    dplyr::mutate(doc = as.integer(.data$doc))
+    dplyr::bind_rows()
 }
