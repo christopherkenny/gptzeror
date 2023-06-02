@@ -4,7 +4,7 @@
 \name{gptzeror-package}
 \alias{gptzeror}
 \alias{gptzeror-package}
-\title{gptzeror: Test for Text Written by Large Language Models using GPTZero}
+\title{gptzeror: Identify Text Written by Large Language Models using GPTZero}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
