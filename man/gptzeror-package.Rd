@@ -4,11 +4,11 @@
 \name{gptzeror-package}
 \alias{gptzeror}
 \alias{gptzeror-package}
-\title{gptzeror: Identify Text Written by Large Language Models using GPTZero}
+\title{gptzeror: Identify Text Written by Large Language Models using 'GPTZero'}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-An R interface to the 'GPTZero' API (\url{https://gptzero.me/docs}). Allows users to classify text probabilistically into human and computer written. Formats the data into data frames where each sentence is an observation. Paragraph-level and document-level predictions are organized to align with the sentences.
+An R interface to the 'GPTZero' API (\url{https://gptzero.me/docs}). Allows users to classify text into human and computer written with probabilities. Formats the data into data frames where each sentence is an observation. Paragraph-level and document-level predictions are organized to align with the sentences.
 }
 \seealso{
 Useful links:

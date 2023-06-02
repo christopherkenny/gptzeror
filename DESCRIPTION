@@ -8,7 +8,7 @@ Authors@R:
            email = "christopherkenny@fas.harvard.edu",
            comment = c(ORCID = "0000-0002-9386-6860"))
 Description: An R interface to the 'GPTZero' API (<https://gptzero.me/docs>). Allows 
-    users to classify text probabilistically into human and computer written. Formats
+    users to classify text into human and computer written with probabilities. Formats
     the data into data frames where each sentence is an observation. Paragraph-level
     and document-level predictions are organized to align with the sentences.
 License: MIT + file LICENSE
